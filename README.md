@@ -1,0 +1,2 @@
+# ERToast
+ ERToast, is a small popup notification which is used to display an information about the operation which we performed in our app. ERToast will show the message for a small period of time and it will disappear automatically after a timeout. Besides these developer can define the period of time also as well as the position of Toast in a view. The size of Toast will be adjusted based on the space required for the message. Its very commonly used in android apps.
