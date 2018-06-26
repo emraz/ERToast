@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		503AEF6020E2A02300E686FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503AEF5F20E2A02300E686FB /* AppDelegate.swift */; };
+		503AEF6220E2A02300E686FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503AEF6120E2A02300E686FB /* ViewController.swift */; };
+		503AEF6520E2A02300E686FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503AEF6320E2A02300E686FB /* Main.storyboard */; };
+		503AEF6720E2A02500E686FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 503AEF6620E2A02500E686FB /* Assets.xcassets */; };
+		503AEF6A20E2A02500E686FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 503AEF6820E2A02500E686FB /* LaunchScreen.storyboard */; };
+		503AEF7520E2A02500E686FB /* ERToastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503AEF7420E2A02500E686FB /* ERToastTests.swift */; };
+		503AEF8020E2A02500E686FB /* ERToastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503AEF7F20E2A02500E686FB /* ERToastUITests.swift */; };
+		503AEF8E20E2A10800E686FB /* ERToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503AEF8D20E2A10800E686FB /* ERToast.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		503AEF7120E2A02500E686FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 503AEF5420E2A02300E686FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 503AEF5B20E2A02300E686FB;
+			remoteInfo = ERToast;
+		};
+		503AEF7C20E2A02500E686FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 503AEF5420E2A02300E686FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 503AEF5B20E2A02300E686FB;
+			remoteInfo = ERToast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		503AEF5C20E2A02300E686FB /* ERToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ERToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		503AEF5F20E2A02300E686FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		503AEF6120E2A02300E686FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		503AEF6420E2A02300E686FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		503AEF6620E2A02500E686FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		503AEF6920E2A02500E686FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		503AEF6B20E2A02500E686FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503AEF7020E2A02500E686FB /* ERToastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ERToastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		503AEF7420E2A02500E686FB /* ERToastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERToastTests.swift; sourceTree = "<group>"; };
+		503AEF7620E2A02500E686FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503AEF7B20E2A02500E686FB /* ERToastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ERToastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		503AEF7F20E2A02500E686FB /* ERToastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERToastUITests.swift; sourceTree = "<group>"; };
+		503AEF8120E2A02500E686FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503AEF8D20E2A10800E686FB /* ERToast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERToast.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		503AEF5920E2A02300E686FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503AEF6D20E2A02500E686FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503AEF7820E2A02500E686FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		503AEF5320E2A02300E686FB = {
+			isa = PBXGroup;
+			children = (
+				503AEF5E20E2A02300E686FB /* ERToast */,
+				503AEF7320E2A02500E686FB /* ERToastTests */,
+				503AEF7E20E2A02500E686FB /* ERToastUITests */,
+				503AEF5D20E2A02300E686FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		503AEF5D20E2A02300E686FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				503AEF5C20E2A02300E686FB /* ERToast.app */,
+				503AEF7020E2A02500E686FB /* ERToastTests.xctest */,
+				503AEF7B20E2A02500E686FB /* ERToastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		503AEF5E20E2A02300E686FB /* ERToast */ = {
+			isa = PBXGroup;
+			children = (
+				503AEF5F20E2A02300E686FB /* AppDelegate.swift */,
+				503AEF8D20E2A10800E686FB /* ERToast.swift */,
+				503AEF6120E2A02300E686FB /* ViewController.swift */,
+				503AEF6320E2A02300E686FB /* Main.storyboard */,
+				503AEF6620E2A02500E686FB /* Assets.xcassets */,
+				503AEF6820E2A02500E686FB /* LaunchScreen.storyboard */,
+				503AEF6B20E2A02500E686FB /* Info.plist */,
+			);
+			path = ERToast;
+			sourceTree = "<group>";
+		};
+		503AEF7320E2A02500E686FB /* ERToastTests */ = {
+			isa = PBXGroup;
+			children = (
+				503AEF7420E2A02500E686FB /* ERToastTests.swift */,
+				503AEF7620E2A02500E686FB /* Info.plist */,
+			);
+			path = ERToastTests;
+			sourceTree = "<group>";
+		};
+		503AEF7E20E2A02500E686FB /* ERToastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				503AEF7F20E2A02500E686FB /* ERToastUITests.swift */,
+				503AEF8120E2A02500E686FB /* Info.plist */,
+			);
+			path = ERToastUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		503AEF5B20E2A02300E686FB /* ERToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503AEF8420E2A02500E686FB /* Build configuration list for PBXNativeTarget "ERToast" */;
+			buildPhases = (
+				503AEF5820E2A02300E686FB /* Sources */,
+				503AEF5920E2A02300E686FB /* Frameworks */,
+				503AEF5A20E2A02300E686FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ERToast;
+			productName = ERToast;
+			productReference = 503AEF5C20E2A02300E686FB /* ERToast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		503AEF6F20E2A02500E686FB /* ERToastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503AEF8720E2A02500E686FB /* Build configuration list for PBXNativeTarget "ERToastTests" */;
+			buildPhases = (
+				503AEF6C20E2A02500E686FB /* Sources */,
+				503AEF6D20E2A02500E686FB /* Frameworks */,
+				503AEF6E20E2A02500E686FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				503AEF7220E2A02500E686FB /* PBXTargetDependency */,
+			);
+			name = ERToastTests;
+			productName = ERToastTests;
+			productReference = 503AEF7020E2A02500E686FB /* ERToastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		503AEF7A20E2A02500E686FB /* ERToastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 503AEF8A20E2A02500E686FB /* Build configuration list for PBXNativeTarget "ERToastUITests" */;
+			buildPhases = (
+				503AEF7720E2A02500E686FB /* Sources */,
+				503AEF7820E2A02500E686FB /* Frameworks */,
+				503AEF7920E2A02500E686FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				503AEF7D20E2A02500E686FB /* PBXTargetDependency */,
+			);
+			name = ERToastUITests;
+			productName = ERToastUITests;
+			productReference = 503AEF7B20E2A02500E686FB /* ERToastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		503AEF5420E2A02300E686FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Matrix Solution Ltd";
+				TargetAttributes = {
+					503AEF5B20E2A02300E686FB = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					503AEF6F20E2A02500E686FB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 503AEF5B20E2A02300E686FB;
+					};
+					503AEF7A20E2A02500E686FB = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 503AEF5B20E2A02300E686FB;
+					};
+				};
+			};
+			buildConfigurationList = 503AEF5720E2A02300E686FB /* Build configuration list for PBXProject "ERToast" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 503AEF5320E2A02300E686FB;
+			productRefGroup = 503AEF5D20E2A02300E686FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				503AEF5B20E2A02300E686FB /* ERToast */,
+				503AEF6F20E2A02500E686FB /* ERToastTests */,
+				503AEF7A20E2A02500E686FB /* ERToastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		503AEF5A20E2A02300E686FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503AEF6A20E2A02500E686FB /* LaunchScreen.storyboard in Resources */,
+				503AEF6720E2A02500E686FB /* Assets.xcassets in Resources */,
+				503AEF6520E2A02300E686FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503AEF6E20E2A02500E686FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503AEF7920E2A02500E686FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		503AEF5820E2A02300E686FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503AEF6220E2A02300E686FB /* ViewController.swift in Sources */,
+				503AEF6020E2A02300E686FB /* AppDelegate.swift in Sources */,
+				503AEF8E20E2A10800E686FB /* ERToast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503AEF6C20E2A02500E686FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503AEF7520E2A02500E686FB /* ERToastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		503AEF7720E2A02500E686FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503AEF8020E2A02500E686FB /* ERToastUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		503AEF7220E2A02500E686FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 503AEF5B20E2A02300E686FB /* ERToast */;
+			targetProxy = 503AEF7120E2A02500E686FB /* PBXContainerItemProxy */;
+		};
+		503AEF7D20E2A02500E686FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 503AEF5B20E2A02300E686FB /* ERToast */;
+			targetProxy = 503AEF7C20E2A02500E686FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		503AEF6320E2A02300E686FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				503AEF6420E2A02300E686FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		503AEF6820E2A02500E686FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				503AEF6920E2A02500E686FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		503AEF8220E2A02500E686FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		503AEF8320E2A02500E686FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		503AEF8520E2A02500E686FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ERToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emraz.ERToast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		503AEF8620E2A02500E686FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ERToast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emraz.ERToast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		503AEF8820E2A02500E686FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ERToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emraz.ERToastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ERToast.app/ERToast";
+			};
+			name = Debug;
+		};
+		503AEF8920E2A02500E686FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ERToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emraz.ERToastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ERToast.app/ERToast";
+			};
+			name = Release;
+		};
+		503AEF8B20E2A02500E686FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ERToastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emraz.ERToastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ERToast;
+			};
+			name = Debug;
+		};
+		503AEF8C20E2A02500E686FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ERToastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.emraz.ERToastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ERToast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		503AEF5720E2A02300E686FB /* Build configuration list for PBXProject "ERToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503AEF8220E2A02500E686FB /* Debug */,
+				503AEF8320E2A02500E686FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		503AEF8420E2A02500E686FB /* Build configuration list for PBXNativeTarget "ERToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503AEF8520E2A02500E686FB /* Debug */,
+				503AEF8620E2A02500E686FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		503AEF8720E2A02500E686FB /* Build configuration list for PBXNativeTarget "ERToastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503AEF8820E2A02500E686FB /* Debug */,
+				503AEF8920E2A02500E686FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		503AEF8A20E2A02500E686FB /* Build configuration list for PBXNativeTarget "ERToastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				503AEF8B20E2A02500E686FB /* Debug */,
+				503AEF8C20E2A02500E686FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 503AEF5420E2A02300E686FB /* Project object */;
+}
