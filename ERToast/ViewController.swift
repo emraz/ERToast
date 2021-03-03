@@ -22,7 +22,7 @@ class ViewController: UIViewController {
     
     @IBAction func showToast(_ sender: Any) {
         let point = CGPoint(x:self.view.frame.size.width/2.0 ,y:150)
-        ERToast.showToast("Toast Message", point: point)
+        ERToast.showToast("Toast Message Toast Message Toast Message Toast Message", point: point)
     }
     
     
