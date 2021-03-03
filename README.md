@@ -2,7 +2,7 @@
 *Made with love and passion*
 
 ## Introduction
-* A simple Toast Notification View written in Swift, compatible with Swift 5.0
+* A simple Toast Notification View written in Swift, compatible with Swift 5.0.
 * Can control delay time, position etc.
 * Easy to customize.
 * Toast With various options.
@@ -40,6 +40,6 @@
     ```
     
 ## License
-ERProgressHud is released under the MIT license. See LICENSE for details.
+ERToast is released under the MIT license. See LICENSE for details.
 
 
