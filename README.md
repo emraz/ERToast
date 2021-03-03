@@ -23,21 +23,18 @@
 ## How To Use
 
 // Show Toast Message in a specific location<br />
-    ```
-        let point = CGPoint(x:self.view.frame.size.width/2.0 ,y:150)
-        ERToast.showToast("Hi, Thanks for trying this", point: point)
-    ```
+    
+    let point = CGPoint(x:self.view.frame.size.width/2.0 ,y:150)
+    ERToast.showToast("Hi, Thanks for trying this", point: point)
 
 // Show Toast Message in center of the view<br />
-        ```
-        ERToast.showToast(atCenter: "Hi, Thanks for trying this", delayTime: 0.5)
-    ```
+
+    ERToast.showToast(atCenter: "Hi, Thanks for trying this", delayTime: 0.5)
 
 // Show Toast Message in a specific location for specific time<br />
-        ```
-        let point = CGPoint(x:self.view.frame.size.width/2.0, y:500)
-        ERToast.showToast("Hi, Thanks for trying this", point: point, delayTime: 0.5)
-    ```
+
+    let point = CGPoint(x:self.view.frame.size.width/2.0, y:500)
+    ERToast.showToast("Hi, Thanks for trying this", point: point, delayTime: 0.5)
     
 ## License
 ERToast is released under the MIT license. See LICENSE for details.
