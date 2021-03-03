@@ -22,18 +22,18 @@ class ViewController: UIViewController {
     
     @IBAction func showToast(_ sender: Any) {
         let point = CGPoint(x:self.view.frame.size.width/2.0 ,y:150)
-        ERToast.showToast("Toast Message Toast Message Toast Message Toast Message", point: point)
+        ERToast.showToast("Hi, Thanks for trying this", point: point)
     }
     
     
     @IBAction func showToastAtCenter(_ sender: Any) {
-        ERToast.showToast(atCenter: "Toast Message", delayTime: 0.5)
+        ERToast.showToast(atCenter: "Hi, Thanks for trying this", delayTime: 0.5)
     }
     
     
     @IBAction func showToastAfterDelay(_ sender: Any) {
         let point = CGPoint(x:self.view.frame.size.width/2.0, y:500)
-        ERToast.showToast("Toast Message", point: point, delayTime: 0.5)
+        ERToast.showToast("Hi, Thanks for trying this", point: point, delayTime: 0.5)
     }
     
 }
